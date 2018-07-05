@@ -18,7 +18,7 @@ int main ()
 }
 //=============================================
 //704參考解答
-#define TRIPLE(x) x*x*x
+#define TRIPLE(x) (x)*(x)*(x)
  
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,7 +32,7 @@ int main ()
     triple_num = TRIPLE(num);
     printf("%d的三次方為%d\n",num, triple_num);
    
-    triple_num = TRIPLE(5);
+    triple_num = TRIPLE(4+1);
     printf("5的三次方為%d\n", triple_num);
  
     system("PAUSE");
